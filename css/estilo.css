@@ -51,7 +51,7 @@ body{
 	letter-spacing: -1.32em;
 	/*border: 1px solid black;*/
 }
-	.div{
+	.navbar2 .div{
 		letter-spacing: normal;
 		text-align: center;
 		padding: 5px;
@@ -62,13 +62,13 @@ body{
 		border: 1px solid black;
 
 	}
-	.div.d4{
+	.navbar2 .div.d4{
 		padding: 0;
 		height: 100px;
 		width: 100px;
 		border: none;
 	}
-	.d4 img{
+	.navbar2 .div.d4 img{
 		position: absolute;
 		right: 100px;
 		width: 100px;
@@ -82,7 +82,7 @@ body{
 	letter-spacing: -1.32em;
 
 }
-	.menus{
+	.navmenu .menus{
 		text-align: center;
 		letter-spacing: normal;
 		width:15%;
@@ -93,18 +93,18 @@ body{
 		transition-duration: 0.4s;
 		color:white;
 	}
-	.menus:hover{
+	.navmenu .menus:hover{
 		background-color: #FF3F3F; 
    		color: #FFD9D9;
    		cursor:pointer;
 	}
-	.menus a{
+	.navmenu .menus a{
 		background: none;
 		text-decoration: none;
 		color:white;
 	}
 
-	.d5{
+	.navmenu .menus.d5{
 		margin-left: 100px;
 	}
 
@@ -156,19 +156,23 @@ body{
 		display: inline-block;	
 		width: 50%;
 	}
-	.pie{
+	.piepagina .pie{
 		padding-top: 20px;
 		font-size: 22px;
 		width: 30%;
 		display: inline-block;
 	}
-	.pie.p1{
+	.piepagina .texto .pie a{
+		color:black;
+		text-decoration: none;
+	}
+	.piepagina .texto .pie.p1{
 		padding-top: 10px;
 		font-size: 50px;
 		width: 100%;
 	}
 
-	.bannerpie{
+	.piepagina .bannerpie{
 		display: inline-block;
 		vertical-align: top;
 		position: absolute;
@@ -177,7 +181,7 @@ body{
 		height: 250px;
 		text-align: right;
 	}
-	.bannerpie img{
+	.piepagina .bannerpie img{
 		width: 77.4%;
 		height: 250px;
 	}
@@ -187,11 +191,30 @@ body{
 	width: 100%;
 }
 .socialnetwork .sn{
-	margin-top: 20px;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-top: 2%;
+	margin-left: 9%;
+	margin-right: 9%;
 	display: inline-block;
-	height: 50px;
-	width: 20%;
-	border: 1px solid black;
+	height: 11%;
+	width: 11%;
+}
+.socialnetwork .sn img{
+	height: 100%;
+	width: 100%;
+}
+
+/*	Secciones	*/
+/*	-- About.html -- 	*/
+.about{
+	height: 500px;
+	width: 100%;
+
+}
+.faq{
+	height: 500px;
+	width: 100%;
+}
+.contact{
+	height: 500px;
+	width: 100%;
 }
