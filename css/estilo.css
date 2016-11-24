@@ -16,6 +16,14 @@ body{
 	background: white;
 	display: inline-block;
 	font-size: 50px;
+	text-align: center;
+
+}
+.header img{
+	width: 90%;
+	height: 90%;
+	margin-left: 50px;
+	vertical-align: center;
 }
 	.navbar{
 	position: absolute;
@@ -125,18 +133,9 @@ body{
 	letter-spacing: normal;
 	padding: 0.3rem;
 	vertical-align: top;
+	margin-bottom: 30px;
 }
-/*Redes Sociales*/
-.socialnetwork{
-	text-align: center;
-}
-.socialnetwork .sn{
-	margin: 100px 100px;
-	border: 1px solid black;
-	display: inline-block;
-	height: 50px;
-	width: 5%;
-}
+
 
 /*Pie de pagina*/
 .piepagina{
@@ -146,21 +145,44 @@ body{
 	.piepagina .texto{
 		text-align: center;
 		display: inline-block;	
-		width: 49%;
+		width: 50%;
 	}
 	.pie{
-		padding-top: 40px;
+		padding-top: 20px;
 		font-size: 22px;
 		width: 30%;
 		display: inline-block;
 	}
-	.p1{
+	.pie.p1{
+		padding-top: 10px;
 		font-size: 50px;
 		width: 100%;
 	}
-	.p5{
-		text-align: center;
-		vertical-align: middle;
-		padding-top: 0;
+
+	.bannerpie{
+		display: inline-block;
+		vertical-align: top;
+		position: absolute;
+		right: 0;
 		width: 50%;
+		height: 250px;
+		text-align: right;
 	}
+	.bannerpie img{
+		width: 77.4%;
+		height: 250px;
+	}
+		/*Redes Sociales*/
+.socialnetwork{
+	text-align: center;
+	width: 100%;
+}
+.socialnetwork .sn{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: inline-block;
+	height: 50px;
+	width: 20%;
+	border: 1px solid black;
+}
