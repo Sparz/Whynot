@@ -54,19 +54,29 @@ body{
 	.navbar2 .div{
 		letter-spacing: normal;
 		text-align: center;
-		padding: 5px;
+		font-size: 30px;
 		width: 17%;
-		border: 1px black;
 		background: white;
 		display: inline-block;
-		border: 1px solid black;
-
+	}
+	.navbar2 .div.d3{
+		background: red;
+		width: 100px;
+		margin-left: 10px;
+		border: 1px solid red;
+	}
+	.navbar2 .div .campos{
+		border: 2.5px solid red;
+		box-shadow: 0px 0px 5px;
+		height: 30px;
+		width: 100%;
+		vertical-align: top;
+		padding: 0;
 	}
 	.navbar2 .div.d4{
 		padding: 0;
 		height: 100px;
-		width: 100px;
-		border: none;
+		width: 20px;
 	}
 	.navbar2 .div.d4 img{
 		position: absolute;
@@ -186,24 +196,51 @@ body{
 		height: 250px;
 	}
 		/*Redes Sociales*/
-.socialnetwork{
-	text-align: center;
-	width: 100%;
-}
-.socialnetwork .sn{
-	margin-top: 2%;
-	margin-left: 9%;
-	margin-right: 9%;
-	display: inline-block;
-	height: 11%;
-	width: 11%;
-}
-.socialnetwork .sn img{
-	height: 100%;
-	width: 100%;
-}
+	.piepagina .socialnetwork{
+		text-align: center;
+		width: 100%;
+	}
+	.piepagina .socialnetwork .sn{
+		margin-top: 2%;
+		margin-left: 9%;
+		margin-right: 9%;
+		display: inline-block;
+		height: 11%;
+		width: 11%;
+	}	
+	.piepagina .socialnetwork .sn img{
+		height: 100%;
+		width: 100%;
+	}
 
 /*	Secciones	*/
+/*	--	Index: --	*/
+/*	--	Slider: --	*/
+/*.carousel-inner{
+    width: 100%;    
+}
+.carousel-inner .item {
+    max-height: 820px;
+}
+    .carousel-inner .item img{
+       width: 100%;
+
+        height: 100%;
+    }
+    
+    .carousel-inner .carousel-caption{
+        bottom: 100px;
+    }
+
+    .carousel-inner .carousel-caption h3{
+        font-size: 3em;
+    }
+
+    .carousel-inner .carousel-caption p{
+        font-size: 1.8em;
+        margin-top: -21px
+    }*/
+
 /*	-- About.html -- 	*/
 .about{
 	height: 500px;
